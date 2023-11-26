@@ -1,0 +1,67 @@
+
+    @font-face {
+      font-family: 'RobotoMono';
+      src: url('/Fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'RobotoMono';
+      src: url('/Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    }
+
+        body {
+            overflow-y: scroll; /* Vertical scrollbar */
+            background-color: rgb(1, 23, 68); /* Adjust to a color with less contrast */
+            font-size: 18px; /* Adjust the size to your preference */
+            line-height: 1.6; /* Adjust the line height to your preference */
+            margin: 0;
+            overflow-y: scroll; /* Vertical scrollbar */
+               /* Other styles... */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+         }
+
+        h1 {
+            color: rgb(244, 226, 223)
+            
+        
+            
+        }
+
+        p {
+         
+             color: rgb(196, 8, 8)656; /* Change to a softer color */
+             margin: 0;
+        }
+
+        .p2{
+            font-family: RobotoMono;
+            font-weight: bold;
+
+        }
+
+        #name {
+            text-align: center;
+            font-family:'RobotoMono' ;
+        }
+
+        a {
+     
+   text-decoration: none;
+}
+
+a:visited {
+   color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    color: limegreen; /* Change to the desired brighter green color */
+}
+
+
+
+
+    
