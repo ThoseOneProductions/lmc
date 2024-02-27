@@ -11,8 +11,7 @@
 
         body {
             overflow-y: scroll; /* Vertical scrollbar */
-            background-color:#0a0909; /* Set the background color for the entire page */
-        
+            background-color:#141414; /* Set the background color for the entire page */
             font-size: 18px; /* Adjust the size to your preference */
             line-height: 1.6; /* Adjust the line height to your preference */
             margin: 0;
@@ -30,7 +29,7 @@
 
         p {
             text-align: center;
-            font-size: 2rem;
+            font-size: 2ref;
             margin: 3rem;
             color:rgb(255, 255, 255) /* Change to a softer color */
         }
@@ -38,7 +37,6 @@
         .p2{
             font-family: RobotoMono;
             font-weight: bold;
-
         }
 
         #name {
@@ -54,23 +52,19 @@
 a:visited {
    color: green;
 }
-
 a:hover {
     text-decoration: none;
     color: rgb(42, 119, 42); /* Change to the desired brighter green color */
 }
-
 a:link {
     color: green;
   }
-
-
 #box {
-
-
-
-    width: 30rem;
-    padding: 2px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 42px;
+    width: 5ref;
+    height: 1ref;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
