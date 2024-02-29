@@ -11,6 +11,8 @@
 
         body {
             overflow-y: scroll; /* Vertical scrollbar */
+            background-color:#544a4a; /* Set the background color for the entire page */
+            
             background-color:#141414; /* Set the background color for the entire page */
             font-size: 18px; /* Adjust the size to your preference */
             line-height: 1.6; /* Adjust the line height to your preference */
@@ -29,6 +31,8 @@
 
         p {
             text-align: center;
+            font-family: ;
+            font-size: 2rem;
             font-size: 2ref;
             margin: 3rem;
             color:rgb(255, 255, 255) /* Change to a softer color */
