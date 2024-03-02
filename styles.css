@@ -27,13 +27,13 @@
 
         h1 {
             color:#D9E8FF;
+            font-size: 1.5rem;
         }
 
         p {
             text-align: center;
             font-family: ;
-            font-size: 2rem;
-            font-size: 2ref;
+            font-size: 0.3ref;
             margin: 3rem;
             color:rgb(255, 255, 255) /* Change to a softer color */
         }
@@ -77,4 +77,37 @@ a:link {
 
 
 
-    
+    /* Your existing styles */
+
+header {
+    text-align: center;
+    font-family: RobotoMono;
+    margin: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centers the menu horizontally */
+    margin-bottom: 3rem;  /* Adds some space below the navigation*/
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+}
+
+nav li {
+    display: inline; 
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #D9E8FF;  /* Consistent white */
+    font-family: RobotoMono;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Add underline on hover for clarity */
+}
