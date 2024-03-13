@@ -63,7 +63,7 @@ a:link {
   }
 #box {
     background-color: rgb(54, 52, 52);
-    opacity: 150%;
+    opacity: 100%;
     border-radius: 42px;
     width: 5ref;
     height: 1ref;
@@ -73,6 +73,27 @@ a:link {
     align-items: center;
 }
 
+#aboutme {
+    font-family:'Courier New', Courier, monospace;
+    width: 40rem;
+    min-height:fit-content;
+    background-color: rgb(112, 58, 58);
+    border-radius: 10px;
+    opacity: 50%;
+   
+   
+
+
+    
+}
+
+.text-box {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 50%;  /* Adjust width as needed */
+    margin: 0 auto;  /* Center the box horizontally */
+}
 
 
 
